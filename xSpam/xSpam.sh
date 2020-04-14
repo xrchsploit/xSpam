@@ -55,5 +55,4 @@ echo $Message >> text.txt
 for n in {1..10000000}; do curl --url "smtps://smtp.gmail.com:465" --ssl-reqd --mail-from $email:$password --mail-rcpt $phonenumber --upload-file text.txt --user $email:$password --insecure; done
  
 
-#curl --url smtps://smtp.gmail.com:465 --ssl-reqd --mail-from 6192518334@messaging.sprintpcs.com --upload-file text.txt --user rebug.ajc2@gmail.com:@Ant0nio2003 --insecure
 
